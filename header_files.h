@@ -1,0 +1,15 @@
+#include "global_variables.h"
+#include <Ticker.h>
+#include <WiFi.h>
+#include <WebServer.h>
+#include <WiFiClient.h>
+#include <ESPmDNS.h>
+#include <NTPClient.h>
+#include <WiFiUdp.h>
+#include <TimeLib.h>
+#include <FS.h>
+#include <SPIFFS.h>
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+#include "settings_spiffs.h"
+#include <ArduinoJson.h>
